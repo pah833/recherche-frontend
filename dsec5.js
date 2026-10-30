@@ -70,10 +70,10 @@ console.log(etudiantL2)
 // et les options reçues dans un tableau.
 
 function creerResume (etudiant, ...options){
-    const {nom,prenom,filiere}=etudiant
-    const moyenne=calculerMoyenneNotes(etudiant)
+    const {nom,prenom,filiere}=etudiant 
+    const moyenne=calculerMoyenneNotes(etudiant) 
     return{
-        nom,prenom,filiere,
+        nom,prenom,filiere,  
         moyenne,options
     }
 }
